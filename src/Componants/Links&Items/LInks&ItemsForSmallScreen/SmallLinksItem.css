@@ -1,0 +1,44 @@
+.Small_Screen_Links_Item_Container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  /* gap: 1rem;  */
+  min-width: 100%;
+  flex-direction: column;
+  /* border: 2px solid gray; */
+}
+.Small_Screen_Links_Items_Heading {
+  color: rgb(21, 22, 25);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.1rem;
+  cursor: pointer;
+  padding: 10px 0px;
+}
+.Small_Screen_Main_Heading_Container {
+  /* width: 100%; */
+  padding: 0rem 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid rgb(56, 5, 5); */
+}
+.Small_Screen_Item1 {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0rem 1.2rem;
+  gap: 1rem;
+}
+.LinksTb {
+  margin-bottom: 0.7rem;
+  color: rgb(21, 22, 25);
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+.UPDown {
+  width: 1.5rem;
+  object-fit: cover;
+  object-position: center;
+}

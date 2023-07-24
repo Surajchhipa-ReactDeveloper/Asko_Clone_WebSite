@@ -1,0 +1,232 @@
+@media only screen and (max-width: 1350px) {
+  .Hero_Container {
+    gap: 4rem;
+  }
+  .CarImg {
+    width: 33rem;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .Hero_Container {
+    gap: 2.5rem;
+  }
+  .CarImg {
+    width: 31rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .Hero_Left_Container {
+    gap: 0.4rem;
+    width: 36rem;
+  }
+  .Hero_Container {
+    gap: 2rem;
+  }
+  .Hero_Main_Top_Heading {
+    font-size: 2.2rem;
+  }
+  .Hero_top_Title {
+    font-size: 1.1rem;
+  }
+  .Hero_Add_Taxi_Number {
+    width: 85%;
+    margin-top: 1.7rem;
+  }
+  .CarImg {
+    width: 29rem;
+  }
+  .Three_Icon_text {
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .Hero_Left_Container {
+    width: 35rem;
+  }
+  .Hero_Add_Taxi_Number {
+    width: 78%;
+    margin-top: 1.6rem;
+  }
+  .Hero_Main_Top_Heading {
+    font-size: 2.1rem;
+  }
+  .Hero_top_Title {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .Hero_Container {
+    gap: 1rem;
+  }
+  .Hero_Left_Container {
+    width: 32rem;
+  }
+  .Hero_Add_Taxi_Number {
+    width: 78%;
+    margin-top: 1.4rem;
+  }
+  .Hero_Main_Top_Heading {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+  .Hero_top_Title {
+    font-size: 1rem;
+  }
+  .CarImg {
+    width: 27rem;
+  }
+  .Three_Icon_text {
+    margin-top: 1.8rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .Hero_Left_Container {
+    width: 29rem;
+  }
+  .Hero_Add_Taxi_Number {
+    width: 82%;
+    margin-top: 1.2rem;
+  }
+  .Hero_Main_Top_Heading {
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+  }
+  .Three_Icon_text {
+    margin-top: 1.7rem;
+  }
+  .CarImg {
+    width: 24rem;
+  }
+  .View_Price {
+    padding: 0.9rem 1.8rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .Hero_Main_Top_Heading {
+    font-size: 1.7rem;
+    line-height: 2.3rem;
+  }
+  .Hero_Left_Container {
+    width: 25rem;
+  }
+  .Input_Number {
+    font-size: 0.8rem;
+  }
+  .View_Price {
+    padding: 0.8rem 1.8rem;
+    font-size: 0.8rem;
+  }
+  .CarImg {
+    width: 23rem;
+  }
+  .Hero_Container {
+    gap: 0.5rem;
+  }
+  .Hero_Add_Taxi_Number {
+    width: 86%;
+    margin-top: 1rem;
+  }
+  .Three_Icon_text {
+    margin-top: 1.5rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .CarImg {
+    width: 21rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .CarImg {
+    width: 35rem;
+  }
+  .Hero_Container {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 100%;
+  }
+  .Hero_Left_Container {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .Hero_Main_Top_Heading {
+    font-size: 1.7rem;
+    line-height: 2.3rem;
+    padding: 0rem 0.5rem;
+    text-align: center;
+  }
+
+  .Hero_Add_Taxi_Number {
+    background-color: transparent;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100%; */
+    justify-content: center;
+    gap: 1.2rem;
+  }
+  .Input_Taxi_Number {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 0.5rem;
+    padding: 0rem 0.8rem;
+  }
+  .Input_Number {
+    padding: 1.1rem 0rem;
+    padding-left: 2rem;
+    border-radius: 0.4rem;
+    width: 85%;
+    font-size: 1rem;
+  }
+  .Search_Taxi_Number_Btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .View_Price {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    width: 91.5%;
+  }
+  .Three_Icon_text {
+    display: none;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .CarImg {
+    width: 32rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .CarImg {
+    width: 29rem;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .CarImg {
+    width: 26rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .CarImg {
+    width: 26rem;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .CarImg {
+    width: 23rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .CarImg {
+    width: 20rem;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .CarImg {
+    width: 18rem;
+  }
+}

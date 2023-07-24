@@ -1,0 +1,9 @@
+.Comp_Logo_Coll_Container_2 {
+  display: none !important;
+}
+@media only screen and (max-width: 768px) {
+  .Comp_Logo_Coll_Container_2 {
+    display: block !important;
+    padding-bottom: 2rem;
+  }
+}

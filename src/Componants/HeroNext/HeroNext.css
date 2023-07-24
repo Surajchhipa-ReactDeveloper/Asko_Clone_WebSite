@@ -1,0 +1,26 @@
+.HeroNext_Container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  padding: 3rem 0rem;
+}
+
+/* *************  MEDIA ************ */
+
+@media only screen and (max-width: 1300px) {
+  .HeroNext_Container {
+    gap: 3rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .HeroNext_Container {
+    gap: 2rem;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .HeroNext_Container {
+    gap: 1rem;
+  }
+}

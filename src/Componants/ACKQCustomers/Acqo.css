@@ -1,0 +1,115 @@
+.ACko_Slider_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 22.5rem;
+  height: 11rem;
+  padding: 2rem 1.5rem;
+  border-radius: 1rem;
+  /* border: 2px solid blue; */
+  background-color: white;
+  margin-bottom: 3rem;
+  /* box-shadow: 0.1rem 0.3rem 1rem 0.2rem rgba(0, 0, 0, 0.163); */
+}
+.ACko_Slider_Top_Img_Name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.CustomersImg {
+  width: 4rem;
+  border-radius: 50%;
+}
+.Customer_Name_ID {
+  display: flex;
+  align-items: first baseline;
+  justify-content: center;
+  flex-direction: column;
+}
+.Customer_Name {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(40, 46, 51);
+  flex: 0 0 auto;
+  order: 0;
+}
+.Customer_ID {
+  font-weight: normal;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: rgb(138, 153, 169);
+}
+.ACko_Slider_Text {
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: rgb(40, 46, 51);
+  margin-top: 0.5rem;
+  text-align: left;
+  height: 8rem;
+}
+
+@media only screen and (max-width: 1350px) {
+  .ACko_Slider_Text {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .ACko_Slider_Text {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .CustomersImg {
+    width: 3.4rem;
+  }
+  .Customer_Name {
+    font-size: 0.9rem;
+  }
+  .Customer_ID {
+    font-size: 0.7rem;
+  }
+  .ACko_Slider_Text {
+    font-size: 0.7rem;
+  }
+  .ACko_Slider_Container {
+    padding: 2rem 1.1rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .CustomersImg {
+    width: 3.2rem;
+  }
+  .Customer_Name {
+    font-size: 0.744rem;
+  }
+  .Customer_ID {
+    font-size: 0.6rem;
+  }
+  .ACko_Slider_Text {
+    font-size: 0.6rem;
+  }
+    .ACko_Slider_Container {
+    padding: 1.7rem 1rem;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .CustomersImg {
+    width: 3rem;
+  }
+  .Customer_Name {
+    font-size: 0.6rem;
+  }
+  .Customer_ID {
+    font-size: 0.6rem;
+  }
+  .ACko_Slider_Text {
+    font-size: 0.6rem;
+  }
+    .ACko_Slider_Container {
+    padding: 1.5rem .9rem;
+  }
+}

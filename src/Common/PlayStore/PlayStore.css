@@ -1,0 +1,47 @@
+.Contact_Bar_Container_Right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  /* border: 2px solid red; */
+  padding: 1.2rem 2rem;
+  border-radius: 0.8rem;
+  background: rgb(239, 233, 251);
+}
+.Contact_Bar_Container_Store_Heading {
+  color: rgb(21, 22, 25);
+  font-size: 1rem;
+  font-weight: 600;
+}
+.Contact_Bar_Container_Store_Type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.StoreLogo {
+  width: 10rem;
+}
+@media only screen and (max-width: 1100px) {
+  .StoreLogo {
+    width: 9rem;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .Contact_Bar_Container_Right {
+    gap: 0.6rem;
+    padding: 1.2rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Contact_Bar_Container_Store_Heading {
+    font-size: 0.8rem;
+  }
+  .StoreLogo {
+    width: 7rem;
+  }
+  .Contact_Bar_Container_Right {
+    width: 80%;
+  }
+}

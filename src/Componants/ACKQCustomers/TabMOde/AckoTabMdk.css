@@ -1,0 +1,147 @@
+@media only screen and (max-width: 768px) {
+  .ACko_Slider_Container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 90%;
+    height: 5.5rem;
+    padding: 2.5rem 1.5rem;
+    border-radius: 1rem;
+    /* border: 2px solid blue; */
+    background-color: white;
+    /* margin-bottom: 3rem; */
+  }
+  .ACko_Slider_Control_Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .CustomersImg {
+    width: 3.5rem;
+  }
+  .CustomersImg2 {
+    width: 4rem;
+    border-radius: 50%;
+  }
+  .Customer_Name {
+    font-size: 1rem;
+  }
+  .Customer_ID {
+    font-size: 0.9rem;
+  }
+  .ACko_Slider_Text {
+    font-size: 0.9rem;
+  }
+  .Acko_Slider_Control {
+    background: #abe5fc;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 3rem;
+    height: 16rem;
+    padding: 2.5rem 1rem;
+    position: relative;
+    width: 100%;
+    /* border: 2px solid rgb(57, 7, 255); */
+  }
+  .ActiveImg {
+    border: 2px dashed blue;
+    scale: 1.7;
+    padding: 0.2rem;
+    transition: all 0.4s ease-in-out;
+  }
+  .Img_Control_Slider {
+    /* border: 2px solid black; */
+  }
+  .Position0 {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    /* border: 2px solid goldenrod; */
+  }
+  .Position1 {
+    position: absolute;
+    right: 23%;
+    top: 43%;
+    /* border: 2px solid rgb(232, 13, 229); */
+  }
+  .Position2 {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    /* border: 2px solid darkred; */
+  }
+  .Position3 {
+    position: absolute;
+    left: 23%;
+    top: 43%;
+    /* border: 2px solid rgb(0, 72, 139); */
+  }
+  .Position4 {
+    position: absolute;
+    left: 10%;
+    bottom: 15%;
+    /* border: 2px solid darkred; */
+  }
+  .Position5 {
+    position: absolute;
+    right: 10%;
+    bottom: 15%;
+    /* border: 2px solid darkred; */
+  }
+  .Position6 {
+    position: absolute;
+    left: 43%;
+    bottom: 10%;
+    /* border: 2px solid darkred; */
+  }
+  .Position7 {
+    position: absolute;
+    right: 42%;
+    top: 10%;
+    /* border: 2px solid darkred; */
+  }
+  .Position8 {
+    position: absolute;
+    right: 43%;
+    top: 43%;
+    /* border: 2px solid darkred; */
+  }
+}
+@media only screen and (max-width: 500px) {
+  .ACko_Slider_Container2 {
+    height: 6rem;
+  }
+  .CustomersImg2 {
+    width: 3.5rem;
+  }
+  .Customer_Name {
+    font-size: 0.9rem;
+  }
+  .ACko_Slider_Text {
+    font-size: 0.8rem;
+  }
+  .Customer_ID {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .ACko_Slider_Container2 {
+    height: 6rem;
+  }
+  .CustomersImg2 {
+    width: 3.2rem;
+  }
+  .Customer_Name {
+    font-size: 0.9rem;
+  }
+  .ACko_Slider_Text {
+    font-size: 0.7rem;
+  }
+  .Customer_ID {
+    font-size: 0.8rem;
+  }
+}

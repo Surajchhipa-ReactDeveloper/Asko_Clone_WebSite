@@ -1,0 +1,30 @@
+.SlUp_Four_Container {
+  display: none !important;
+}
+@media only screen and (max-width: 768px) {
+  .SlUp_Four_Container {
+    display: block !important;
+  }
+  .SlUp_Four_Container_Item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem 0rem;
+    padding-left: 1.5rem;
+    /* gap: 5rem; */
+    /* border: 2px solid red; */
+  }
+  .SlUp_Four_Container_Item1,
+  .SlUp_Four_Container_Item2 {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .SlUp_Four_Container_Item {
+    padding-left: 1rem;
+  }
+}

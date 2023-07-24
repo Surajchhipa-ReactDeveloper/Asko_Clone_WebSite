@@ -1,0 +1,10 @@
+.Company_Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.CompLogo {
+  width: 3rem;
+  object-fit: contain;
+  border-radius: .4rem;
+}

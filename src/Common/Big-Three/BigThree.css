@@ -1,0 +1,67 @@
+.Big_Three_Icon_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  gap: 1rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid rgb(228, 234, 241);
+  height: 3.5rem;
+  background: rgb(246, 247, 251);
+  border-radius: 0.5rem;
+}
+.BigIcon {
+  width: 2.4rem;
+  object-fit: contain;
+}
+.Big_Three_Icon_Right_Container {
+  line-height: 1.3rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+/* *************  MEDIA ************ */
+@media only screen and (max-width: 1200px) {
+  .Big_Three_Icon_Container {
+    width: 19rem;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .Big_Three_Icon_Container {
+    width: 17rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .Big_Three_Icon_Container {
+    width: 15rem;
+  }
+  .Big_Three_Icon_Right_Container {
+    font-size: 0.77rem;
+    line-height: 1rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .Big_Three_Icon_Container {
+    width: 13rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .Big_Three_Icon_Container {
+    width: 12.5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Big_Three_Icon_Container {
+    width: 95%;
+    /* border: 1px solid transparent; */
+    height: 2.5rem;
+    background: rgb(255, 255, 255);
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    justify-content: flex-start;
+    scroll-behavior: smooth;
+  }
+  .Big_Three_Icon_Right_Container {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+}

@@ -1,0 +1,13 @@
+.Hero_Point_2 {
+  display: none;
+}
+.Hero_Point_1 {
+}
+@media only screen and (max-width: 768px) {
+  .Hero_Point_1 {
+    display: none !important;
+  }
+  .Hero_Point_2 {
+    display: block !important;
+  }
+}

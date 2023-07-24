@@ -1,0 +1,72 @@
+.Company_Logo_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2.2rem 0rem;
+}
+.Company_Logo_Main_Heading {
+  color: rgb(40, 46, 51);
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+.Company_Logo_Inner_Item {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid black; */
+  gap: 3.5rem;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 1400px) {
+  .Company_Logo_Inner_Item {
+    width: 55vw;
+  }
+}
+@media only screen and (max-width: 1350px) {
+  .Company_Logo_Inner_Item {
+    width: 55vw;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .Company_Logo_Inner_Item {
+    width: 60vw;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .Company_Logo_Inner_Item {
+    width: 62vw;
+    gap: 3rem;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .Company_Logo_Inner_Item {
+    width: 66vw;
+    gap: 2.7rem;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .Company_Logo_Inner_Item {
+    width: 71vw;
+    gap: 2.6rem;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .Company_Logo_Inner_Item {
+    width: 74.2vw;
+    gap: 2.4rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Company_Logo_Main_Heading {
+    font-size: 1.3rem;
+    padding: 0rem 1rem;
+  }
+  .Company_Logo_Inner_Item {
+    display: none !important;
+  }
+}

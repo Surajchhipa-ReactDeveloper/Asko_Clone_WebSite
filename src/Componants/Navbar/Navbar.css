@@ -1,0 +1,76 @@
+.Navbar_Left_Right_Container {
+  background-color: #5e27c9;
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 68rem;
+}
+.MainLogo {
+  width: 6rem;
+  object-fit: contain;
+  object-position: center;
+}
+.HelpLogo {
+  width: 5rem;
+  object-fit: contain;
+  object-position: center;
+}
+@media only screen and (max-width: 1350px) {
+  .Navbar_Left_Right_Container {
+    gap: 65rem;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .Navbar_Left_Right_Container {
+    gap: 61rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .Navbar_Left_Right_Container {
+    gap: 58rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .Navbar_Left_Right_Container {
+    gap: 56rem;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .Navbar_Left_Right_Container {
+    gap: 49rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .Navbar_Left_Right_Container {
+    gap: 44rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .Navbar_Left_Right_Container {
+    gap: 39rem;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .Navbar_Left_Right_Container {
+    gap: 38rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .Navbar_Left_Right_Container {
+    gap: 36rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Navbar_Left_Right_Container {
+    justify-content: space-between;
+    gap: 0rem;
+  }
+  .Navbar_Left_Container {
+    padding-left: 1rem;
+  }
+  .Navbar_Right_Container {
+    padding-right: 2rem;
+  }
+}
