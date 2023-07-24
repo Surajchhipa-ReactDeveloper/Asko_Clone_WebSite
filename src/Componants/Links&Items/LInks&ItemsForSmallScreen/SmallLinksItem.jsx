@@ -29,7 +29,9 @@ const SmallLinksItem = ({
     <>
       <div className="Small_Screen_Links_Item_Container">
         <div className="Small_Screen_Main_Heading_Container">
-          <div className="Small_Screen_Links_Items_Heading">{Heading}</div>
+          <div className="Small_Screen_Links_Items_Heading" onClick={showAns}>
+            {Heading}
+          </div>
           <p onClick={showAns}>
             {show ? (
               <img src={Images.Up_LOGO} alt="" className="UPDown" />
@@ -56,7 +58,7 @@ const SmallLinksItem = ({
                 <div className="Small_Links_box LinksTb">{Item12}</div>
                 <div className="Small_Links_box LinksTb">{Item13}</div>
                 <div className="Small_Links_box LinksTb">{Item14}</div>
-              </div>
+              </div>  
             )}
           </div>
         </div>

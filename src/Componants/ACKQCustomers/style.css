@@ -27,15 +27,26 @@
 
 /* Target the pagination dots */
 .swiper-pagination-bullet {
-  background-color: black; /* Change the background color to white */
+  /* background-color: black; Change the background color to white */
 }
 
 /* Optionally, you can change the color of the active pagination dot */
 .swiper-pagination-bullet-active {
   background-color: white;
-  width: 1rem; /* Change the background color of the active dot to white */
+  /* width: 1rem;  */
+  /* border: 2px solid; */
+  /* transform: scale(1.1); */
+  border-radius: 1rem;
+  width: 1.4rem;
 }
 .mySwiper {
   scroll-behavior: smooth;
   will-change: transform;
+}
+
+@media only screen and (max-width:768px){
+  .swiper-pagination-bullet-active {
+  background-color: #5e27c9;
+
+}
 }

@@ -43,8 +43,7 @@
   border: none;
   outline: none;
   font-size: 1rem;
-  color: #20252b;
-  /* color: aquamarine; */
+  color: #20252bea;
   text-transform: capitalize;
   line-height: 1.2rem;
 }
@@ -70,7 +69,7 @@
 }
 .InputCarLogo{
   width: 2rem;
-  opacity: 60%;
+  opacity: 40%;
 }
 .Input_Taxi_Number{
   display: flex;

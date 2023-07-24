@@ -7,9 +7,13 @@ import { Images } from "../../Contant/ImagePath";
 const Hero = () => {
   const ClickInput = () => {
     var IconH = document.querySelector(".InputCarLogo");
-    var inputPalace = document.querySelector(".Input_Number");
     IconH.style.display = "none";
-    inputPalace.style.placeholder = "none";
+  };
+  const ClickInputBefore = () => {
+    var IconS = document.querySelector(".InputCarLogo");
+    var x = document.querySelector(".Input_Number");
+    IconS.style.display = "block";
+    x.value = x.value.toUpperCase();    
   };
   return (
     <>
@@ -28,6 +32,7 @@ const Hero = () => {
                 type="text"
                 placeholder="Enter your taxi number"
                 className="Input_Number"
+                onBlur={ClickInputBefore}
                 onFocus={ClickInput}
               />
             </div>
