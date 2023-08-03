@@ -27,9 +27,6 @@ const BigLinksItem = () => {
                     <div className="Big_Screen_Item9 Links">{Item.Item9}</div>
                     <div className="Big_Screen_Item10 Links">{Item.Item10}</div>
                     <div className="Big_Screen_Item11 Links">{Item.Item11}</div>
-                    <div className="Big_Screen_Item12 Links">{Item.Item12}</div>
-                    <div className="Big_Screen_Item13 Links">{Item.Item13}</div>
-                    <div className="Big_Screen_Item14 Links">{Item.Item14}</div>
                   </div>
                 </div>
               </>

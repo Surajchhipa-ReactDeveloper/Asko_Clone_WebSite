@@ -10,13 +10,6 @@ const LinksItemData = [
     Item6: "Health insurance",
     Item7: "Arogya sanjeevani policy",
     Item8: "Group health insurance for employees",
-    // Item9: "",
-    // Item10: "",
-    // Item11: "",
-    // Item12: "",
-    // Item13: "",
-    // Item14: "",
-    // Item15: "",
   },
   {
     id: 2,
@@ -30,12 +23,6 @@ const LinksItemData = [
     Item7: "Ackology - The tech blog",
     Item8: "Partnerships",
     Item9: "Sitemap",
-    // Item10: "",
-    // Item11: "",
-    // Item12: "",
-    // Item13: "",
-    // Item14: "",
-    // Item15: "",
   },
   {
     id: 3,
@@ -49,12 +36,6 @@ const LinksItemData = [
     Item7: "Disclaimer",
     Item8: "Anti fraud policy",
     Item9: "Health underwriting philosophy",
-    // Item10: "",
-    // Item11: "",
-    // Item12: "",
-    // Item13: "",
-    // Item14: "",
-    // Item15: "",
   },
   {
     id: 4,
@@ -67,13 +48,6 @@ const LinksItemData = [
     Item6: "Unclaimed amount",
     Item7: "IRDAI website",
     Item8: "Other products",
-    // Item9: "",
-    // Item10: "",
-    // Item11: "",
-    // Item12: "",
-    // Item13: "",
-    // Item14: "",
-    // Item15: "",
   },
   {
     id: 5,
@@ -89,10 +63,6 @@ const LinksItemData = [
     Item9: "Old car insurance",
     Item10: "Car insurance articles",
     Item11: "Car insurance guides",
-    // Item12: "",
-    // Item13: "",
-    // Item14: "",
-    // Item15: "",
   },
   {
     id: 6,
@@ -108,10 +78,6 @@ const LinksItemData = [
     Item9: "Electric bike insurance",
     Item10: "Bike insurance articles",
     Item11: "Bike insurance guides",
-    // Item12: "",
-    // Item13: "",
-    // Item14: "",
-    // Item15: "",
   },
   {
     id: 7,
@@ -127,10 +93,6 @@ const LinksItemData = [
     Item9: "1 crore health insurance",
     Item10: "Health insurance articles",
     Item11: "Health insurance guides",
-    // Item12: "",
-    // Item13: "",
-    // Item14: "",
-    // Item15: "",
   },
   {
     id: 8,
@@ -146,10 +108,6 @@ const LinksItemData = [
     Item9: "Car insurance in Bangalore",
     Item10: "Car insurance in Hyderabad",
     Item11: "Car insurance in Chennai",
-    // Item12: "",
-    // Item13: "",
-    // Item14: "",
-    // Item15: "",
   },
   {
     id: 9,
@@ -163,12 +121,6 @@ const LinksItemData = [
     Item7: "Constructive total loss in bike insurance",
     Item8: "Insurance for rental bikes",
     Item9: "Duplicate bike insurance copy online",
-    // Item10: "",
-    // Item11: "",
-    // Item12: "",
-    // Item13: "",
-    // Item14: "",
-    // Item15: "",
   },
   {
     id: 10,
@@ -183,11 +135,6 @@ const LinksItemData = [
     Item8: "Types of health insurance",
     Item9: "Health insurance portability",
     Item10: "Preventive health check-up",
-    // Item11: "",
-    // Item12: "",
-    // Item13: "",
-    // Item14: "",
-    // Item15: "",
   },
   {
     id: 11,
@@ -203,10 +150,6 @@ const LinksItemData = [
     Item9: "How are group health insurance premiums calculated?",
     Item10: "Startup health insurance",
     Item11: "Group health insurance",
-    // Item12: "",
-    // Item13: "",
-    // Item14: "",
-    // Item15: "",
   },
   {
     id: 12,
@@ -223,7 +166,6 @@ const LinksItemData = [
     Item9: "Petrol Prices in India",
     Item10: "Diesel Prices in India",
     Item11: "UAN",
- 
   },
   {
     id: 13,
@@ -235,14 +177,10 @@ const LinksItemData = [
     Item5: "Travel Insurance for Dubai",
     Item6: "Travel Insurance for Thailand",
     Item7: "Is Travel Insurance mandatory?",
-    // Item8: " ",
-    // Item9: "",
-    // Item10: "",
-    // Item11: "",
-    // Item12: "",
-    // Item13: "",
-    // Item14: "",
-    // Item15: "",
+    Item8: "Anti fraud policy",
+    Item9: "Health underwriting philosophy",
+    Item10: "Car insurance in Hyderabad",
+    Item11: "Car insurance in Chennai",
   },
   {
     id: 14,
@@ -251,32 +189,22 @@ const LinksItemData = [
     Item2: "Term Insurance",
     Item3: "Types of Life Insurance",
     Item4: "Life Insurance Riders",
-    // Item5: " ",
-    // Item6: " ",
-    // Item7: " ",
-    // Item8: " ",
-    // Item9: "",
-    // Item10: "",
-    // Item11: "",
-    // Item12: "",
-    // Item13: "",
-    // Item14: "",
-    // Item15: "",
+    Item5: "Anti fraud policy",
+    Item6: "Health underwriting philosophy",
+    Item7: "Types of Life Insurance",
+    Item8: "Car insurance claim settlement ratio",
+    Item9: "Car insurance in Bangalore",
+    Item10: "Car insurance in Hyderabad",
+    Item11: "Car insurance in Chennai",
   },
 ];
 
-
 export default LinksItemData;
-
-
 
 // export const Products = [
 //   {
 //         Item1: "Car insurance",
-        
+
 //   },
-
-
-
 
 // ];

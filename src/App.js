@@ -10,6 +10,7 @@ import CompLogoCall from "./Componants/ComPLogo/CompLogoCall";
 import ContactBar from "./Componants/ContactBar/ContactBar";
 import Links_ItemCall from "./Componants/Links&Items/Links_Item_Call_Point/Links&ItemCall";
 import PlayStore from "./Common/PlayStore/PlayStore";
+import Footer from "./Componants/Footer/Footer";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
       <div className="Store">
         <PlayStore />
       </div>
+      <Footer/> 
     </>
   );
 };
